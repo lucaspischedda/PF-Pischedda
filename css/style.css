@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* index start */
+body {
+    background-color: rgb(163, 154, 154);
+}
+header {
+    background-color: rgb(0, 0, 0);
+    height: 90px;
+    position: fixed;
+    width: 100%;
+}
+.menu a{
+    padding: 10px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu ul {
+    margin-left: 350px;
+    margin-top: -60px;
+}
+.menu ul li {
+    display: inline-block;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.encabezado-principal {
+    padding-top: 110px;
+}
+.encabezado-h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(228, 218, 218);
+}
+/* cambios historia start */
+.historia-img {
+    grid-area: img;
+}
+.historia-contenido {
+    grid-area: contenido;
+}
+.historia-index {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img contenido";
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.historia-index h2 {
+    font-size: 30px;
+}
+.historia-index p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    font-size: 17px;
+    margin-top: 10px;
+}
+p a {
+    color: rgb(255, 166, 0);
+}
+/* cambios historia end */
+/* cambios miembros start */
+.miembros-img {
+    grid-area: img;
+}
+.miembros-contenido {
+    grid-area: contenido;
+}
+.miembros-index {
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "contenido img";
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.miembros-index h2 {
+    font-size: 30px;
+}
+.miembros-index p {
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(228, 218, 218);
+    font-size: 17px;
+}
+/* cambios miembros end */
+/* cambios discografia start */
+.discografia-img {
+    grid-area: img;
+}
+.discografia-contenido {
+    grid-area: contenido;
+}
+.discografia-index {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img contenido";
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.discografia-index h2 {
+    font-size: 30px;
+}
+.discografia-index p {
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(228, 218, 218);
+    font-size: 17px;
+}
+/* cambios discografia end */
+/* cambios galeria start */
+.galeria-iframe {
+    grid-area: iframe;
+}
+.galeria-contenido {
+    grid-area: contenido;
+}
+.galeria-index {
+    display: grid;
+    grid-template-columns: 1.7fr 1.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "contenido iframe";
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.galeria-index h2 {
+    font-size: 30px;
+}
+.galeria-index p {
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(228, 218, 218);
+    font-size: 17px;
+}
+/* cambios galeria end */
+footer a {
+    color: rgb(255, 0, 0);
+}
+footer {
+    background-color: rgb(165, 42, 42);
+    margin-top: 20px;
+}
+/* index end  */
+
+/* historia start */
+/* main start */
+.historia-encabezado {
+    padding-top: 110px;
+    margin-left: 50px;
+}
+.historia-encabezado p {
+    text-align: center;
+    font-size: 17px;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: rgb(228, 218, 218);
+}
+.historia-encabezado h1 {
+    text-align: center;
+}
+.historia-encabezado li {
+    list-style: none;
+    font-size: 20px;
+    color: rgb(228, 218, 218);
+}
+.historia-main-ul {
+    margin-top: 30px;
+    grid-area: ul;
+}
+.historia-main-img {
+    grid-area: img;
+}
+.historia-main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "ul img";
+    margin-top: 50px;
+}
+/* main end */
+/* articulo 1 start */
+.historia-art-uno {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img contenido";
+}
+.art-uno-img {
+    grid-area: img;
+}
+.art-uno-cont {
+    grid-area: contenido;
+}
+.historia-art-uno h2 {
+    font-size: 30px;
+}
+.historia-art-uno p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    font-size: 17px;
+}
+/* articulo 1 end */
+/* articulo 2 start */
+.historia-art-dos {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img contenido";
+}
+.art-dos-cont {
+    grid-area: contenido;
+}
+.art-dos-img {
+    grid-area: img;
+}
+.historia-art-dos h2 {
+    font-size: 30px;
+}
+.historia-art-dos p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    font-size: 17px;
+}
+/* articulo 2 end */
+/* articulo 3 start */
+.historia-art-tres {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img contenido";
+}
+.art-tres-img {
+    grid-area: img;
+}
+.art-tres-cont {
+    grid-area: contenido;
+}
+.historia-art-tres h2 {
+    font-size: 30px;
+}
+.historia-art-tres p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    font-size: 17px;
+}
+/* historia end */
+
+/* miembros start */
+.formacion-actual {
+    padding-top: 100px;
+}
+.formacion-actual div {
+    margin-left: 100px;   
+}
+.formacion-actual div a {
+    color: yellow
+}
+.formacion-actual h2 {
+    font-size: 30px;
+}
+.formacion-actual li {
+    list-style: none;
+    color: rgb(228, 218, 218);
+}
+.miembros-anteriores {
+    margin-left: 100px;
+}
+.miembros-anteriores li {
+    list-style: none;
+    color: rgb(228, 218, 218);
+}
+.miembros-anteriores h2 {
+    font-size: 30px;
+}
+.miembros-anteriores a {
+    color: yellow;
+}
+.james-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.james-section h2 {
+    font-size: 30px;
+}
+.james-section h3 {
+    font-size: 20px;
+    color: darkslategrey;
+}
+.james-section p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.lars-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.lars-section h2 {
+    font-size: 30px;
+}
+.lars-section h3 {
+    font-size: 20px;
+    color: darkslategrey;
+}.lars-section p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.kirk-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.kirk-section h2 {
+    font-size: 30px;
+}
+.kirk-section h3 {
+    font-size: 20px;
+    color: darkslategrey;
+}.kirk-section p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.robert-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.robert-section h2 {
+    font-size: 30px;
+}
+.robert-section h3 {
+    font-size: 20px;
+    color: darkslategrey;
+}.robert-section p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.ron-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.ron-section h2 {
+    font-size: 30px;
+}
+.ron-section h3 {
+    font-size: 20px;
+    color: darkslategrey;
+}.ron-section p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.dave-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.dave-section h2 {
+    font-size: 30px;
+}
+.dave-section h3 {
+    font-size: 20px;
+    color: darkslategrey;
+}.dave-section p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.cliff-section {
+    text-align: center;
+    margin-top: 50px;
+}.cliff-section h2 {
+    font-size: 30px;
+}
+.cliff-section h3 {
+    font-size: 20px;
+    color: darkslategrey;
+}.cliff-section p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.jason-section {
+    text-align: center;
+    margin-top: 50px;
+}.jason-section h2 {
+    font-size: 30px;
+}.jason-section h3 {
+    font-size: 20px;
+    color: darkslategrey;
+}.jason-section p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.timelane {
+    text-align: center;
+    margin-top: 50px;
+}
+.timelane h2 {
+    font-size: 30px;
+}
+/* miembros end */
+
+/* discografia start */
+.disco-uno {
+    padding-top: 100px;
+    margin-left: 50px;
+}
+.disco-uno h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-uno p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-dos {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-dos h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-dos p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-tres {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-tres h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-tres p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-cuatro {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-cuatro h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-cuatro p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-cinco {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-cinco h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-cinco p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-seis {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-seis h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-seis p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-siete {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-siete h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-siete p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-ocho {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-ocho h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-ocho p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-nueve {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-nueve h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-nueve p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-diez {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-diez h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-diez p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+.disco-once {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.disco-once h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.disco-once p {
+    justify-content: center;
+    margin-right: 100px;
+    color: rgb(228, 218, 218);
+}
+/* discografia end */
+
+/* galeria start */
+.galeria-encabezado {
+    padding-top: 100px;
+}
+.galeria-encabezado h3 {
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: rgb(228, 218, 218);
+    font-weight: 500;
+}
+.galeria-imgs {
+    display: inline-block;
+    margin: 150px;
+}
+.galeria-iframes {
+    display: inline-block;
+    margin: 100px;
+}
+/* galeria end */
