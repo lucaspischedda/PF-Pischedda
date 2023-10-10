@@ -223,6 +223,7 @@ footer {
     justify-content: center;
     color: rgb(228, 218, 218);
     font-size: 17px;
+    margin-top: 10px;
 }
 /* articulo 1 end */
 /* articulo 2 start */
@@ -249,6 +250,7 @@ footer {
     justify-content: center;
     color: rgb(228, 218, 218);
     font-size: 17px;
+    margin-top: 10px;
 }
 /* articulo 2 end */
 /* articulo 3 start */
@@ -275,15 +277,18 @@ footer {
     justify-content: center;
     color: rgb(228, 218, 218);
     font-size: 17px;
+    margin-top: 10px;
 }
+/* articulo 3 and */
 /* historia end */
 
 /* miembros start */
+/* encabezado start */
 .formacion-actual {
     padding-top: 100px;
 }
 .formacion-actual div {
-    margin-left: 100px;   
+    margin-left: 50px;   
 }
 .formacion-actual div a {
     color: yellow
@@ -294,13 +299,15 @@ footer {
 .formacion-actual li {
     list-style: none;
     color: rgb(228, 218, 218);
+    font-size: 17px;
 }
 .miembros-anteriores {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .miembros-anteriores li {
     list-style: none;
     color: rgb(228, 218, 218);
+    font-size: 17px;
 }
 .miembros-anteriores h2 {
     font-size: 30px;
@@ -308,132 +315,230 @@ footer {
 .miembros-anteriores a {
     color: yellow;
 }
+/* encabezado end */
+/* james start */
 .james-section {
-    text-align: center;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img contenido";
+} 
+.james-img {
+    grid-area: img;
+}
+.james-cont {
+    grid-area: contenido;
 }
 .james-section h2 {
     font-size: 30px;
 }
-.james-section h3 {
+h3 {
     font-size: 20px;
     color: darkslategrey;
 }
 .james-section p {
-    justify-content: center;
     color: rgb(228, 218, 218);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 10px;
 }
+/* james end */
+/* lars start */
 .lars-section {
-    text-align: center;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img contenido";
+}
+.lars-img {
+    grid-area: img;
+}
+.lars-cont {
+    grid-area: contenido;
 }
 .lars-section h2 {
     font-size: 30px;
 }
-.lars-section h3 {
-    font-size: 20px;
-    color: darkslategrey;
-}.lars-section p {
-    justify-content: center;
+.lars-section p {
     color: rgb(228, 218, 218);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 10px;
 }
+/* lars end */
+/* kirk start */
 .kirk-section {
-    text-align: center;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img contenido";
+}
+.kirk-img {
+    grid-area: img;
+}
+.kirk-cont {
+    grid-area: contenido;
 }
 .kirk-section h2 {
     font-size: 30px;
 }
-.kirk-section h3 {
-    font-size: 20px;
-    color: darkslategrey;
-}.kirk-section p {
-    justify-content: center;
+.kirk-section p {
     color: rgb(228, 218, 218);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 10px;
 }
+/* kirk end */
+/* robert start */
 .robert-section {
-    text-align: center;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img contenido";
+}
+.robert-img {
+    grid-area: img;
+}
+.robert-cont {
+    grid-area: contenido;
 }
 .robert-section h2 {
     font-size: 30px;
 }
-.robert-section h3 {
-    font-size: 20px;
-    color: darkslategrey;
-}.robert-section p {
-    justify-content: center;
+.robert-section p {
     color: rgb(228, 218, 218);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 10px;
 }
+/* robert end */
+/* ron start */
 .ron-section {
-    text-align: center;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "contenido img";
+    gap: 40px;
+}
+.ron-img {
+    grid-area: img;
+}
+.ron-cont {
+    grid-area: contenido;
 }
 .ron-section h2 {
     font-size: 30px;
 }
-.ron-section h3 {
-    font-size: 20px;
-    color: darkslategrey;
-}.ron-section p {
-    justify-content: center;
+.ron-section p {
     color: rgb(228, 218, 218);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 10px;
 }
+/* ron end */
+/* dave start */
 .dave-section {
-    text-align: center;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "contenido img";
+    gap: 40px;
+}
+.dave-img {
+    grid-area: img;
+}
+.dave-cont {
+    grid-area: contenido;
 }
 .dave-section h2 {
     font-size: 30px;
 }
-.dave-section h3 {
-    font-size: 20px;
-    color: darkslategrey;
-}.dave-section p {
-    justify-content: center;
+.dave-section p {
     color: rgb(228, 218, 218);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 10px;
 }
+/* dave end */
+/* cliff start */
 .cliff-section {
-    text-align: center;
-    margin-top: 50px;
-}.cliff-section h2 {
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "contenido img";
+    gap: 50px;
+}
+.cliff-img {
+    grid-area: img;
+}
+.cliff-cont {
+    grid-area: contenido;
+}
+.cliff-section h2 {
     font-size: 30px;
 }
-.cliff-section h3 {
-    font-size: 20px;
-    color: darkslategrey;
-}.cliff-section p {
-    justify-content: center;
+.cliff-section p {
     color: rgb(228, 218, 218);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 10px;
 }
+/* cliff end */
+/* jason start */
 .jason-section {
-    text-align: center;
-    margin-top: 50px;
-}.jason-section h2 {
-    font-size: 30px;
-}.jason-section h3 {
-    font-size: 20px;
-    color: darkslategrey;
-}.jason-section p {
     justify-content: center;
-    color: rgb(228, 218, 218);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "contenido img";
+    gap: 20px;
 }
+.jason-img {
+    grid-area: img;
+}
+.jason-cont {
+    grid-area: contenido;
+}
+.jason-section h2 {
+    font-size: 30px;
+}.jason-section p {
+    color: rgb(228, 218, 218);
+    margin-top: 10px;
+}
+/* jason end */
 .timelane {
     text-align: center;
     margin-top: 50px;
