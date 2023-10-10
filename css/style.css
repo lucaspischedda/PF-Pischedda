@@ -541,7 +541,7 @@ h3 {
 /* jason end */
 .timelane {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .timelane h2 {
     font-size: 30px;
@@ -550,133 +550,194 @@ h3 {
 
 /* discografia start */
 .disco-uno {
+    text-align: center;
     padding-top: 100px;
-    margin-left: 50px;
+    
 }
 .disco-uno h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-uno img {
+    margin-top: 10px;
+}
 .disco-uno p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-dos {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-dos h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-dos img {
+    margin-top: 10px;
+}
 .disco-dos p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-tres {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-tres h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-tres img {
+    margin-top: 10px;
+}
 .disco-tres p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-cuatro {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-cuatro h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-cuatro img {
+    margin-top: 10px;
+}
 .disco-cuatro p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-cinco {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-cinco h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-cinco img {
+    margin-top: 10px;
+}
 .disco-cinco p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-seis {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-seis h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-seis img {
+    margin-top: 10px;
+}
 .disco-seis p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-siete {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-siete h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-siete img {
+    margin-top: 10px;
+}
 .disco-siete p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-ocho {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-ocho h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-ocho img {
+    margin-top: 10px;
+}
 .disco-ocho p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-nueve {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-nueve h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-nueve img {
+    margin-top: 10px;
+}
 .disco-nueve p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-diez {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-diez h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-diez img {
+    margin-top: 10px;
+}
 .disco-diez p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 .disco-once {
