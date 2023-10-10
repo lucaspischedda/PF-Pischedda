@@ -160,6 +160,9 @@ footer {
     background-color: rgb(165, 42, 42);
     margin-top: 20px;
 }
+footer p {
+    font-size: 15px;
+}
 /* index end  */
 
 /* historia start */
@@ -741,16 +744,22 @@ h3 {
     color: rgb(228, 218, 218);
 }
 .disco-once {
-    margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 .disco-once h2 {
     margin-top: 50px;
     font-size: 30px;
 }
+.disco-once img {
+    margin-top: 10px;
+}
 .disco-once p {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 17px;
     color: rgb(228, 218, 218);
 }
 /* discografia end */
