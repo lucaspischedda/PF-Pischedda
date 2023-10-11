@@ -59,6 +59,30 @@ h1 {
     margin-right: 50px;
     margin-top: 100px;
 }
+@media only screen and (max-width: 576px) {
+    .historia-imgn {
+        width: 450px
+    }
+    .historia-index {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "img"
+        "contenido";
+        margin-top: -5px;
+    }
+    .historia-contenido {
+        margin-top: -120px
+    }
+    .miembros-imgn {
+        width: 450px;
+    }
+    .miembros-index {
+        display: flex;
+        flex-direction: column;
+    }
+}
 .historia-index h2 {
     font-size: 30px;
 }
