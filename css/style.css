@@ -775,12 +775,11 @@ h3 {
     color: rgb(228, 218, 218);
     font-weight: 500;
 }
-.galeria-imgs {
-    display: inline-block;
-    margin: 150px;
-}
 .galeria-iframes {
     display: inline-block;
     margin: 100px;
+}
+.container {
+    margin-top: 50px;
 }
 /* galeria end */
