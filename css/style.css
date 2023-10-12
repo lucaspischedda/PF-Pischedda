@@ -7,32 +7,30 @@
 body {
     background-color: rgb(163, 154, 154);
 }
-header {
+.menu {
     background-color: rgb(0, 0, 0);
-    height: 90px;
-    position: fixed;
-    width: 100%;
 }
-.menu a{
-    padding: 10px;
-    margin: 10px;
+.nav-link {
     color: rgb(255, 255, 255);
-    text-decoration: none;
     font-size: 25px;
+    margin-left: 70px;
 }
-.menu ul {
-    margin-left: 350px;
-    margin-top: -60px;
-}
-.menu ul li {
-    display: inline-block;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1 {
     text-align: center;
     font-size: 40px;
-}
-.encabezado-principal {
-    padding-top: 110px;
 }
 .encabezado-h2 {
     margin-top: 20px;
@@ -43,45 +41,9 @@ h1 {
     color: rgb(228, 218, 218);
 }
 /* cambios historia start */
-.historia-img {
-    grid-area: img;
-}
-.historia-contenido {
-    grid-area: contenido;
-}
-.historia-index {
-    display: grid;
-    grid-template-columns: 1fr 1.4fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "img contenido";
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 100px;
-}
-@media only screen and (max-width: 576px) {
-    .historia-imgn {
-        width: 450px
-    }
-    .historia-index {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: 
-        "img"
-        "contenido";
-        margin-top: -5px;
-    }
-    .historia-contenido {
-        margin-top: -120px
-    }
-    .miembros-imgn {
-        width: 450px;
-    }
-    .miembros-index {
-        display: flex;
-        flex-direction: column;
-    }
+.historia-index, .miembros-index, .discografia-index, .galeria-index {
+    display: flex;
+    align-items: center;
 }
 .historia-index h2 {
     font-size: 30px;
@@ -91,28 +53,13 @@ h1 {
     color: rgb(228, 218, 218);
     font-size: 17px;
     margin-top: 10px;
+    padding: 5px;
 }
 p a {
     color: rgb(255, 166, 0);
 }
 /* cambios historia end */
 /* cambios miembros start */
-.miembros-img {
-    grid-area: img;
-}
-.miembros-contenido {
-    grid-area: contenido;
-}
-.miembros-index {
-    display: grid;
-    grid-template-columns: 1.7fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "contenido img";
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 100px;
-}
 .miembros-index h2 {
     font-size: 30px;
 }
@@ -124,22 +71,6 @@ p a {
 }
 /* cambios miembros end */
 /* cambios discografia start */
-.discografia-img {
-    grid-area: img;
-}
-.discografia-contenido {
-    grid-area: contenido;
-}
-.discografia-index {
-    display: grid;
-    grid-template-columns: 1fr 1.4fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "img contenido";
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 100px;
-}
 .discografia-index h2 {
     font-size: 30px;
 }
@@ -151,22 +82,6 @@ p a {
 }
 /* cambios discografia end */
 /* cambios galeria start */
-.galeria-iframe {
-    grid-area: iframe;
-}
-.galeria-contenido {
-    grid-area: contenido;
-}
-.galeria-index {
-    display: grid;
-    grid-template-columns: 1.7fr 1.3fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "contenido iframe";
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
 .galeria-index h2 {
     font-size: 30px;
 }
@@ -175,6 +90,10 @@ p a {
     margin-top: 10px;
     color: rgb(228, 218, 218);
     font-size: 17px;
+}
+.galeria-iframe-dos {
+    width: 560px;
+    height: 315px;
 }
 /* cambios galeria end */
 footer a {
@@ -218,24 +137,14 @@ footer p {
     grid-area: img;
 }
 .historia-main-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "ul img";
-    margin-top: 50px;
+    display: flex;
+    align-items: center;
 }
 /* main end */
 /* articulo 1 start */
 .historia-art-uno {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1.4fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "img contenido";
+    display: flex;
+    align-items: center;
 }
 .art-uno-img {
     grid-area: img;
@@ -255,14 +164,8 @@ footer p {
 /* articulo 1 end */
 /* articulo 2 start */
 .historia-art-dos {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1.1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "img contenido";
+    display: flex;
+    align-items: center;
 }
 .art-dos-cont {
     grid-area: contenido;
@@ -282,14 +185,8 @@ footer p {
 /* articulo 2 end */
 /* articulo 3 start */
 .historia-art-tres {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1.4fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "img contenido";
+    display: flex;
+    align-items: center;
 }
 .art-tres-img {
     grid-area: img;
@@ -807,3 +704,53 @@ h3 {
     margin-top: 50px;
 }
 /* galeria end */
+@media (max-width: 576px) {
+    .historia-imgn, .miembros-imgn, .discografia-imgn {
+        width: 360px;
+        margin: 0 auto;
+    }
+    .historia-index, .discografia-index {
+        flex-direction: column;
+    }
+    .miembros-index, .galeria-index {
+        flex-direction: column-reverse;
+    }
+    .galeria-iframe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .historia-contenido p, .miembros-contenido p, .discografia-contenido p, .galeria-contenido p {
+        font-size: 15px;
+    }
+    .historia-contenido h2, .miembros-contenido h2, .discografia-contenido h2, .galeria-contenido h2 {
+        text-align: center;
+    }
+    .navbar-toggler {
+        color: rgb(255, 255, 255);
+    }
+    .navbar-toggler-icon {
+        background-color: rgb(255, 255, 255);
+    }
+    .historia-encabezado h1 {
+        font-size: 30px;
+    }
+    .historia-encabezado p {
+        font-size: 14px;
+    }
+    .historia-main-div, .historia-art-uno, .historia-art-dos, .historia-art-tres {
+        flex-direction: column;
+    }
+    .art-uno-cont p, .art-dos-cont p, .art-tres-cont p{
+        font-size: 14px;
+    }
+    .art-uno-cont h2, .art-dos-cont h2, .art-tres-cont h2 {
+        font-size: 20px;
+    }
+    .historia-main-div ul li {
+        font-size: 14px;
+    }
+    .historia-main-imgn, .art-uno-imgn, .art-dos-imgn, .art-tres-imgn {
+        width: 350px;
+        margin: 0 auto;
+    }
