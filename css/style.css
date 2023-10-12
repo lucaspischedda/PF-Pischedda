@@ -705,7 +705,7 @@ h3 {
 }
 /* galeria end */
 @media (max-width: 576px) {
-    .historia-imgn, .miembros-imgn, .discografia-imgn {
+        .historia-imgn, .miembros-imgn, .discografia-imgn {
         width: 360px;
         margin: 0 auto;
     }
@@ -754,3 +754,4 @@ h3 {
         width: 350px;
         margin: 0 auto;
     }
+}
