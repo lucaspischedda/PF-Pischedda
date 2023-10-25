@@ -15,19 +15,6 @@ body {
     font-size: 25px;
     margin-left: 70px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 h1 {
     text-align: center;
     font-size: 40px;
@@ -44,16 +31,23 @@ h1 {
 .historia-index, .miembros-index, .discografia-index, .galeria-index {
     display: flex;
     align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .historia-index h2 {
     font-size: 30px;
+    margin-top:
 }
 .historia-index p {
     justify-content: center;
     color: rgb(228, 218, 218);
     font-size: 17px;
     margin-top: 10px;
-    padding: 5px;
+}
+.historia-contenido {
+    margin-left: 10px;
+    height: 350px;
 }
 p a {
     color: rgb(255, 166, 0);
@@ -69,6 +63,10 @@ p a {
     color: rgb(228, 218, 218);
     font-size: 17px;
 }
+.miembros-contenido {
+    margin-right: 10px;
+    height: 370px;
+}
 /* cambios miembros end */
 /* cambios discografia start */
 .discografia-index h2 {
@@ -79,6 +77,10 @@ p a {
     margin-top: 10px;
     color: rgb(228, 218, 218);
     font-size: 17px;
+}
+.discografia-contenido {
+    margin-left: 10px;
+    height: 515px;
 }
 /* cambios discografia end */
 /* cambios galeria start */
@@ -94,6 +96,9 @@ p a {
 .galeria-iframe-dos {
     width: 560px;
     height: 315px;
+}
+.galeria-contenido {
+    height: 330px;
 }
 /* cambios galeria end */
 footer a {
