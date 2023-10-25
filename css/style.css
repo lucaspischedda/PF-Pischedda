@@ -114,15 +114,12 @@ footer p {
 /* index end  */
 
 /* historia start */
-/* main start */
-.historia-encabezado {
-    padding-top: 110px;
-    margin-left: 50px;
-}
+/* encabezado start */
 .historia-encabezado p {
     text-align: center;
     font-size: 17px;
     margin-right: 50px;
+    margin-left: 50px;
     margin-top: 20px;
     color: rgb(228, 218, 218);
 }
@@ -136,79 +133,37 @@ footer p {
 }
 .historia-main-ul {
     margin-top: 30px;
-    grid-area: ul;
-}
-.historia-main-img {
-    grid-area: img;
+    margin-left: 100px;
 }
 .historia-main-div {
     display: flex;
     align-items: center;
 }
+.historia-main-img {
+    margin-left: 100px;
+}
+/* encabezado end */
+/* main start */
+.historia-art-uno, .historia-art-dos, .historia-art-tres {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.historia-art-uno h2, .historia-art-dos h2, .historia-art-tres h2 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.historia-art-uno p, .historia-art-dos p, .historia-art-tres p {
+    justify-content: center;
+    color: rgb(228, 218, 218);
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
 /* main end */
-/* articulo 1 start */
-.historia-art-uno {
-    display: flex;
-    align-items: center;
-}
-.art-uno-img {
-    grid-area: img;
-}
-.art-uno-cont {
-    grid-area: contenido;
-}
-.historia-art-uno h2 {
-    font-size: 30px;
-}
-.historia-art-uno p {
-    justify-content: center;
-    color: rgb(228, 218, 218);
-    font-size: 17px;
-    margin-top: 10px;
-}
-/* articulo 1 end */
-/* articulo 2 start */
-.historia-art-dos {
-    display: flex;
-    align-items: center;
-}
-.art-dos-cont {
-    grid-area: contenido;
-}
-.art-dos-img {
-    grid-area: img;
-}
-.historia-art-dos h2 {
-    font-size: 30px;
-}
-.historia-art-dos p {
-    justify-content: center;
-    color: rgb(228, 218, 218);
-    font-size: 17px;
-    margin-top: 10px;
-}
-/* articulo 2 end */
-/* articulo 3 start */
-.historia-art-tres {
-    display: flex;
-    align-items: center;
-}
-.art-tres-img {
-    grid-area: img;
-}
-.art-tres-cont {
-    grid-area: contenido;
-}
-.historia-art-tres h2 {
-    font-size: 30px;
-}
-.historia-art-tres p {
-    justify-content: center;
-    color: rgb(228, 218, 218);
-    font-size: 17px;
-    margin-top: 10px;
-}
-/* articulo 3 and */
 /* historia end */
 
 /* miembros start */
