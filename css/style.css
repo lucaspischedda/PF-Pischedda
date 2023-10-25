@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* index start */
+/* INDEX start */
 body {
     background-color: rgb(163, 154, 154);
 }
@@ -112,8 +112,8 @@ footer p {
     font-size: 15px;
 }
 /* index end  */
-
-/* historia start */
+/* ---------------------------------------------------------- */
+/* HISTORIA start */
 /* encabezado start */
 .historia-encabezado p {
     text-align: center;
@@ -165,11 +165,88 @@ footer p {
 }
 /* main end */
 /* historia end */
-
-/* miembros start */
-/* encabezado start */
-.formacion-actual {
-    padding-top: 100px;
+/* ---------------------------------------------------------- */
+/* MIEMBROS start */
+/* miembros actuales start */
+.james-section, .lars-section, .kirk-section, .robert-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;   
+} 
+.james-section h2, .lars-section h2, .kirk-section h2, .robert-section h2 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.james-cont h3, .lars-cont h3, .kirk-cont h3, .robert-cont h3 {
+    font-size: 20px;
+    color: rgb(47, 79, 79);
+    margin-left: 10px;
+}
+.james-section p, .lars-section p, .kirk-section p, .robert-section p {
+    color: rgb(228, 218, 218);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.james-img {
+    margin-top: -360px;
+}
+.lars-img {
+    margin-top: -400px;
+}
+.kirk-img {
+    margin-top: -485px;
+}
+.robert-img {
+    margin-top: -460px;
+}
+/* miembros actuales end */
+/* miembros anteriores start */
+h3 {
+    font-size: 20px;
+    color: rgb(47, 79, 79);
+}
+.ron-section, .dave-section, .cliff-section, .jason-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+}
+.ron-section h2, .dave-section h2, .cliff-section h2, .jason-section h2 {
+    font-size: 30px;
+}
+.ron-section p, .dave-section p, .cliff-section p, .jason-section p {
+    color: rgb(228, 218, 218);
+    margin-top: 10px;
+}
+.dave-img {
+    margin-top: -150px;
+}
+.cliff-img {
+    margin-top: -30px;
+}
+.jason-img {
+    margin-top: 50px;
+}
+/* timelane y formación de la banda start */
+.timelane-div {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.timelane {
+    margin-top: 50px;
+}
+.timelane h2 {
+    font-size: 30px;
 }
 .formacion-actual div {
     margin-left: 50px;   
@@ -179,6 +256,7 @@ footer p {
 }
 .formacion-actual h2 {
     font-size: 30px;
+    margin-left: 30px;
 }
 .formacion-actual li {
     list-style: none;
@@ -195,243 +273,14 @@ footer p {
 }
 .miembros-anteriores h2 {
     font-size: 30px;
+    margin-left: 30px;
 }
 .miembros-anteriores a {
     color: yellow;
 }
-/* encabezado end */
-/* james start */
-.james-section {
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 17px;
-    display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "img contenido";
-} 
-.james-img {
-    grid-area: img;
-}
-.james-cont {
-    grid-area: contenido;
-}
-.james-section h2 {
-    font-size: 30px;
-}
-h3 {
-    font-size: 20px;
-    color: darkslategrey;
-}
-.james-section p {
-    color: rgb(228, 218, 218);
-    margin-top: 10px;
-}
-/* james end */
-/* lars start */
-.lars-section {
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 17px;
-    display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "img contenido";
-}
-.lars-img {
-    grid-area: img;
-}
-.lars-cont {
-    grid-area: contenido;
-}
-.lars-section h2 {
-    font-size: 30px;
-}
-.lars-section p {
-    color: rgb(228, 218, 218);
-    margin-top: 10px;
-}
-/* lars end */
-/* kirk start */
-.kirk-section {
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 17px;
-    display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "img contenido";
-}
-.kirk-img {
-    grid-area: img;
-}
-.kirk-cont {
-    grid-area: contenido;
-}
-.kirk-section h2 {
-    font-size: 30px;
-}
-.kirk-section p {
-    color: rgb(228, 218, 218);
-    margin-top: 10px;
-}
-/* kirk end */
-/* robert start */
-.robert-section {
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 17px;
-    display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "img contenido";
-}
-.robert-img {
-    grid-area: img;
-}
-.robert-cont {
-    grid-area: contenido;
-}
-.robert-section h2 {
-    font-size: 30px;
-}
-.robert-section p {
-    color: rgb(228, 218, 218);
-    margin-top: 10px;
-}
-/* robert end */
-/* ron start */
-.ron-section {
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 17px;
-    display: grid;
-    grid-template-columns: 6fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "contenido img";
-    gap: 40px;
-}
-.ron-img {
-    grid-area: img;
-}
-.ron-cont {
-    grid-area: contenido;
-}
-.ron-section h2 {
-    font-size: 30px;
-}
-.ron-section p {
-    color: rgb(228, 218, 218);
-    margin-top: 10px;
-}
-/* ron end */
-/* dave start */
-.dave-section {
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 17px;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "contenido img";
-    gap: 40px;
-}
-.dave-img {
-    grid-area: img;
-}
-.dave-cont {
-    grid-area: contenido;
-}
-.dave-section h2 {
-    font-size: 30px;
-}
-.dave-section p {
-    color: rgb(228, 218, 218);
-    margin-top: 10px;
-}
-/* dave end */
-/* cliff start */
-.cliff-section {
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 17px;
-    display: grid;
-    grid-template-columns: 2.5fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "contenido img";
-    gap: 50px;
-}
-.cliff-img {
-    grid-area: img;
-}
-.cliff-cont {
-    grid-area: contenido;
-}
-.cliff-section h2 {
-    font-size: 30px;
-}
-.cliff-section p {
-    color: rgb(228, 218, 218);
-    margin-top: 10px;
-}
-/* cliff end */
-/* jason start */
-.jason-section {
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 17px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "contenido img";
-    gap: 20px;
-}
-.jason-img {
-    grid-area: img;
-}
-.jason-cont {
-    grid-area: contenido;
-}
-.jason-section h2 {
-    font-size: 30px;
-}.jason-section p {
-    color: rgb(228, 218, 218);
-    margin-top: 10px;
-}
-/* jason end */
-.timelane {
-    text-align: center;
-    margin-top: 100px;
-}
-.timelane h2 {
-    font-size: 30px;
-}
+/* timelane y formacion de la banda end */
 /* miembros end */
-
+/* ---------------------------------------------------------- */
 /* discografia start */
 .disco-uno {
     text-align: center;
