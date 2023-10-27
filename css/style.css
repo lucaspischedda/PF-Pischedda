@@ -324,6 +324,9 @@ h3 {
         width: 360px;
         margin: 0 auto;
     }
+    .miembros-imgn {
+        margin-top: 50px;
+    }
     .historia-index, .discografia-index {
         flex-direction: column;
     }
@@ -334,9 +337,10 @@ h3 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: -250px;
     }
     .historia-contenido p, .miembros-contenido p, .discografia-contenido p, .galeria-contenido p {
-        font-size: 15px;
+        font-size: 14px;
     }
     .historia-contenido h2, .miembros-contenido h2, .discografia-contenido h2, .galeria-contenido h2 {
         text-align: center;
@@ -356,17 +360,67 @@ h3 {
     .historia-main-div, .historia-art-uno, .historia-art-dos, .historia-art-tres {
         flex-direction: column;
     }
+    .historia-main-div {
+        margin-right: 80px;
+    }
     .art-uno-cont p, .art-dos-cont p, .art-tres-cont p{
         font-size: 14px;
+        text-align: center;
     }
     .art-uno-cont h2, .art-dos-cont h2, .art-tres-cont h2 {
         font-size: 20px;
+        text-align: center;
     }
     .historia-main-div ul li {
         font-size: 14px;
     }
     .historia-main-imgn, .art-uno-imgn, .art-dos-imgn, .art-tres-imgn {
         width: 350px;
-        margin: 0 auto;
+    }
+    .art-uno-imgn, .art-dos-imgn, .-art-tres-imgn {
+        margin-right: 50px;
+    }
+    .james-section, .lars-section {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+    .james-cont, .lars-cont, .kirk-cont, .robert-cont, .ron-cont, .dave-cont, .cliff-cont, .jason-cont {
+        font-size: 14px;
+        text-align: center;
+    }
+    .kirk-section {
+        flex-direction: column;
+        margin-top: 500px;
+    }
+    .robert-section {
+        flex-direction: column;
+        margin-top: 470px;
+    }
+    .ron-section, .cliff-section {
+        flex-direction: column-reverse;
+    }
+    .dave-section {
+        flex-direction: column-reverse;
+        margin-top: 150px;
+    }
+    .jason-section {
+        flex-direction: column-reverse;
+        margin-top: -50px;
+    }
+    .timelane-img {
+        width: 500px;
+    }
+    .timelane-div {
+        flex-direction: column;
+        margin-top: -50px;
+    }
+    .timelane-div h2 {
+        font-size: 20px;
+    }
+    .timelane-div li {
+        font-size: 14px;
+    }
+    .formacion-actual {
+        margin-top: 20px;
     }
 }
