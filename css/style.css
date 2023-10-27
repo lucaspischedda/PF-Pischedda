@@ -423,4 +423,10 @@ h3 {
     .formacion-actual {
         margin-top: 20px;
     }
+    .galeria-iframes {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    }
 }
