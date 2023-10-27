@@ -281,20 +281,18 @@ h3 {
 /* timelane y formacion de la banda end */
 /* miembros end */
 /* ---------------------------------------------------------- */
-/* discografia start */
+/* DISCOGRAFIA start */
 .disco-uno {
     text-align: center;
-    padding-top: 100px;
-    
 }
-.disco-uno h2 {
+.disco-uno h2, .disco-dos h2, .disco-tres h2, .-disco-cuatro h2, .disco-cinco h2, .disco-seis h2, .disco-siete h2, .disco-ocho h2, .disco-nueve h2, .disco-diez h2, .disco-once h2 {
     margin-top: 50px;
     font-size: 30px;
 }
-.disco-uno img {
+.disco-uno img, .disco-dos img, .disco-tres img, .-disco-cuatro img, .disco-cinco img, .disco-seis img, .disco-siete img, .disco-ocho img, .disco-nueve img, .disco-diez img, .disco-once img {
     margin-top: 10px;
 }
-.disco-uno p {
+.disco-uno p, .disco-dos p, .disco-tres p, .disco-cuatro p, .disco-cinco p, .disco-seis p, .disco-siete p, .disco-ocho p, .disco-nueve p, .disco-diez p, .disco-once p {
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -302,202 +300,13 @@ h3 {
     font-size: 17px;
     color: rgb(228, 218, 218);
 }
-.disco-dos {
+.disco-dos, .disco-tres, .disco-cuatro, .disco-cinco, .disco-seis, .disco-siete, .disco-ocho, .disco-nueve, .disco-diez, .disco-once {
     text-align: center;
-    margin-top: 100px;
-}
-.disco-dos h2 {
     margin-top: 50px;
-    font-size: 30px;
-}
-.disco-dos img {
-    margin-top: 10px;
-}
-.disco-dos p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
-}
-.disco-tres {
-    text-align: center;
-    margin-top: 100px;
-}
-.disco-tres h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-.disco-tres img {
-    margin-top: 10px;
-}
-.disco-tres p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
-}
-.disco-cuatro {
-    text-align: center;
-    margin-top: 100px;
-}
-.disco-cuatro h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-.disco-cuatro img {
-    margin-top: 10px;
-}
-.disco-cuatro p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
-}
-.disco-cinco {
-    text-align: center;
-    margin-top: 100px;
-}
-.disco-cinco h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-.disco-cinco img {
-    margin-top: 10px;
-}
-.disco-cinco p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
-}
-.disco-seis {
-    text-align: center;
-    margin-top: 100px;
-}
-.disco-seis h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-.disco-seis img {
-    margin-top: 10px;
-}
-.disco-seis p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
-}
-.disco-siete {
-    text-align: center;
-    margin-top: 100px;
-}
-.disco-siete h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-.disco-siete img {
-    margin-top: 10px;
-}
-.disco-siete p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
-}
-.disco-ocho {
-    text-align: center;
-    margin-top: 100px;
-}
-.disco-ocho h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-.disco-ocho img {
-    margin-top: 10px;
-}
-.disco-ocho p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
-}
-.disco-nueve {
-    text-align: center;
-    margin-top: 100px;
-}
-.disco-nueve h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-.disco-nueve img {
-    margin-top: 10px;
-}
-.disco-nueve p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
-}
-.disco-diez {
-    text-align: center;
-    margin-top: 100px;
-}
-.disco-diez h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-.disco-diez img {
-    margin-top: 10px;
-}
-.disco-diez p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
-}
-.disco-once {
-    text-align: center;
-    margin-top: 100px;
-}
-.disco-once h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-.disco-once img {
-    margin-top: 10px;
-}
-.disco-once p {
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    font-size: 17px;
-    color: rgb(228, 218, 218);
 }
 /* discografia end */
-
-/* galeria start */
-.galeria-encabezado {
-    padding-top: 100px;
-}
+/* ---------------------------------------------------------- */
+/* GALERIA start */
 .galeria-encabezado h3 {
     justify-content: center;
     margin-left: 80px;
@@ -508,9 +317,6 @@ h3 {
 .galeria-iframes {
     display: inline-block;
     margin: 100px;
-}
-.container {
-    margin-top: 50px;
 }
 /* galeria end */
 @media (max-width: 576px) {
