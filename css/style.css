@@ -48,6 +48,10 @@ footer h6 a {
   color: rgb(255, 166, 0);
 }
 
+form label {
+  color: rgb(255, 255, 255);
+}
+
 .encabezado-h2 {
   margin-left: 50px;
   margin-right: 50px;
