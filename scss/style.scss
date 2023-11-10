@@ -18,7 +18,6 @@ h2 {
 h3 {
     font-size: 20px;
     color: rgb(8, 8, 8);
-    margin-left: 10px;
 }
 .menu {
     background-color: rgb(0, 0, 0);
@@ -70,15 +69,18 @@ form {
     margin-left: 50px;
     margin-right: 50px;
 }
-.historia-index h2, .miembros-index h2, .discografia-index h2, .galeria-index h2 {
-    font-size: 30px;
-}
-.historia-index p, .miembros-index p, .discografia-index p, .galeria-index p {
-    justify-content: center;
+.historia-index, .miembros-index, .discografia-index, .galeria-index {
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        justify-content: center;
     color: rgb(228, 218, 218);
     font-size: 17px;
     margin-top: 10px;
+    }
 }
+
 .historia-contenido {
     margin-left: 10px;
     height: 350px;
@@ -109,26 +111,30 @@ form {
 // ----------------------------------------------------
 // HISTORIA start
 // encabezado start
-.historia-encabezado h1 {
-    text-align: center;
-}
-.historia-encabezado p {
-    text-align: center;
-    font-size: 17px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 20px;
-    color: rgb(228, 218, 218);
+.historia-encabezado {
+    h1 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        font-size: 20px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 20px;
+        color: rgb(228, 218, 218); 
+    }
 }
 .historia-main-ul {
     margin-top: 30px;
     margin-left: 100px;
 }
-.historia-encabezado li {
-    list-style: none;
-    font-size: 20px;
-    color: rgb(228, 218, 218);
-}    
+.historia-encabezado {
+    li {
+        list-style: none;
+        font-size: 20px;
+        color: rgb(228, 218, 218);
+    }
+}  
 .historia-main-div {
     display: flex;
     align-items: center;
@@ -149,19 +155,21 @@ form {
     margin-top: 50px;
     margin-left: 50px;
 }
-.historia-art-uno h2, .historia-art-dos h2, .historia-art-tres h2 {
-    font-size: 30px;
-    margin-left: 10px;
-    margin-right: 50px;
-}
-.historia-art-uno p, .historia-art-dos p, .historia-art-tres p {
-    justify-content: center;
-    color: rgb(228, 218, 218);
-    font-size: 17px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 50px;
-}        
+.historia-art-uno, .historia-art-dos, .historia-art-tres {
+    h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+    p {
+        justify-content: center;
+        color: rgb(228, 218, 218);
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+}    
 // main end
 // HISTORIA end
 // ----------------------------------------------------
@@ -174,18 +182,22 @@ form {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 17px; 
+    font-size: 17px;
+    h2 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    p {
+        color: rgb(228, 218, 218);
+        margin-top: 10px;
+        margin-left: 10px; 
+    }
 }
-.james-section h2, .lars-section h2, .kirk-section h2, .robert-section h2 {
-    font-size: 30px;
-    margin-left: 10px;
+.james-cont, .lars-cont, .kirk-cont, .robert-cont {
+    h3 {
+        margin-left: 10px;
+    }
 }
-.james-section p, .lars-section p, .kirk-section p, .robert-section p {
-    color: rgb(228, 218, 218);
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
 .james-img {
     margin-top: -360px;
 }
@@ -209,14 +221,14 @@ form {
     margin-left: 50px;
     margin-right: 50px;
     font-size: 17px;
+    h2 {
+        font-size: 30px; 
+    }
+    p {
+        color: rgb(228, 218, 218);
+        margin-top: 10px;
+    }
 }
-.ron-section h2, .dave-section h2, .cliff-section h2, .jason-section h2 {
-    font-size: 30px;
-}
-.ron-section p, .dave-section p, .cliff-section p, .jason-section p {
-            color: rgb(228, 218, 218);
-            margin-top: 10px;
-} 
 .dave-img {
     margin-top: -150px;
 }
@@ -243,35 +255,35 @@ form {
     }
 }
 .formacion-actual {
-    margin-left: 50px;  
-}
-.formacion-actual h2 {
-    font-size: 30px;
-    margin-left: 30px;
-}
-.formacion-actual li {
-    list-style: none;
-    color: rgb(228, 218, 218);
-    font-size: 17px;
+    margin-left: 50px;
+    h2 {
+        font-size: 30px;
+        margin-left: 30px;
     }
-.formacion-actual a {
-                color: rgb(255, 166, 0)
-}            
+    li {
+        list-style: none;
+        color: rgb(228, 218, 218);
+        font-size: 17px;
+        a {
+            color: rgb(255, 166, 0)
+        }
+    }
+}          
   .miembros-anteriores {
     margin-left: 50px;
+    h2 {
+        font-size: 30px;
+        margin-left: 30px; 
+    }
+    li {
+        list-style: none;
+        color: rgb(228, 218, 218);
+        font-size: 17px;
+        a {
+            color: rgb(255, 166, 0);
+        }
+    }
   }
-.miembros-anteriores h2 {
-    font-size: 30px;
-    margin-left: 30px;  
-}
-.miembros-anteriores li {
-    list-style: none;
-    color: rgb(228, 218, 218);
-    font-size: 17px;
-}
-.miembros-anteriores a {
-    color: rgb(255, 166, 0);
-}
 // timelane y formación de la banda end
 // MIEMBROS end
 // ----------------------------------------------------
@@ -279,38 +291,46 @@ form {
 .disco-uno {
     text-align: center;
 }
-.disco-uno img, .disco-dos img, .disco-tres img, .-disco-cuatro img, .disco-cinco img, .disco-seis img, .disco-siete img, .disco-ocho img, .disco-nueve img, .disco-diez img, .disco-once img {
-    margin-top: 10px;
-}
-.disco-uno p, .disco-dos p, .disco-tres p, .disco-cuatro p, .disco-cinco p, .disco-seis p, .disco-siete p, .disco-ocho p, .disco-nueve p, .disco-diez p, .disco-once p {
-            justify-content: center;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-top: 10px;
-            font-size: 17px;
-            color: rgb(228, 218, 218);
-}        
-.disco-uno h2, .disco-dos h2, .disco-tres h2, .-disco-cuatro h2, .disco-cinco h2, .disco-seis h2, .disco-siete h2, .disco-ocho h2, .disco-nueve h2, .disco-diez h2, .disco-once h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
 .disco-dos, .disco-tres, .disco-cuatro, .disco-cinco, .disco-seis, .disco-siete, .disco-ocho, .disco-nueve, .disco-diez, .disco-once {
     text-align: center;
     margin-top: 50px;
 }
+.disco-uno, .disco-dos, .disco-tres, .disco-cuatro, .disco-cinco, .disco-seis, .disco-siete, .disco-ocho, .disco-nueve, .disco-diez, .disco-once {
+    h2 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    img {
+        margin-top: 10px;
+    }
+    p {
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+        font-size: 17px;
+        color: rgb(228, 218, 218);
+    }
+}
 // DISCOGRAFÍA end
 // ----------------------------------------------------
 // GALERÍA start
-.galeria-encabezado h3 {
-    justify-content: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    color: rgb(228, 218, 218);
-    font-weight: 500;
+.galeria-encabezado {
+    h3 {
+        justify-content: center;
+        margin-left: 80px;
+        margin-right: 80px;
+        color: rgb(228, 218, 218);
+        font-weight: 500;
+        font-size: 20px;
+    }
 }
 .galeria-iframes {
     display: inline-block;
     margin: 100px;
+}
+.container {
+    margin-top: 50px;
 }
 // GALERÍA end
 // ----------------------------------------------------

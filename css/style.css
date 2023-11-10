@@ -21,7 +21,6 @@ h2 {
 h3 {
   font-size: 20px;
   color: rgb(8, 8, 8);
-  margin-left: 10px;
 }
 
 .menu {
@@ -83,7 +82,6 @@ form label {
 .historia-index h2, .miembros-index h2, .discografia-index h2, .galeria-index h2 {
   font-size: 30px;
 }
-
 .historia-index p, .miembros-index p, .discografia-index p, .galeria-index p {
   justify-content: center;
   color: rgb(228, 218, 218);
@@ -114,10 +112,9 @@ form label {
 .historia-encabezado h1 {
   text-align: center;
 }
-
-.historia-encabezado p {
+.historia-encabezado h3 {
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
   margin-right: 50px;
   margin-left: 50px;
   margin-top: 20px;
@@ -160,7 +157,6 @@ form label {
   margin-left: 10px;
   margin-right: 50px;
 }
-
 .historia-art-uno p, .historia-art-dos p, .historia-art-tres p {
   justify-content: center;
   color: rgb(228, 218, 218);
@@ -179,15 +175,17 @@ form label {
   margin-right: 50px;
   font-size: 17px;
 }
-
 .james-section h2, .lars-section h2, .kirk-section h2, .robert-section h2 {
   font-size: 30px;
   margin-left: 10px;
 }
-
 .james-section p, .lars-section p, .kirk-section p, .robert-section p {
   color: rgb(228, 218, 218);
   margin-top: 10px;
+  margin-left: 10px;
+}
+
+.james-cont h3, .lars-cont h3, .kirk-cont h3, .robert-cont h3 {
   margin-left: 10px;
 }
 
@@ -216,11 +214,9 @@ form label {
   margin-right: 50px;
   font-size: 17px;
 }
-
 .ron-section h2, .dave-section h2, .cliff-section h2, .jason-section h2 {
   font-size: 30px;
 }
-
 .ron-section p, .dave-section p, .cliff-section p, .jason-section p {
   color: rgb(228, 218, 218);
   margin-top: 10px;
@@ -255,38 +251,32 @@ form label {
 .formacion-actual {
   margin-left: 50px;
 }
-
 .formacion-actual h2 {
   font-size: 30px;
   margin-left: 30px;
 }
-
 .formacion-actual li {
   list-style: none;
   color: rgb(228, 218, 218);
   font-size: 17px;
 }
-
-.formacion-actual a {
+.formacion-actual li a {
   color: rgb(255, 166, 0);
 }
 
 .miembros-anteriores {
   margin-left: 50px;
 }
-
 .miembros-anteriores h2 {
   font-size: 30px;
   margin-left: 30px;
 }
-
 .miembros-anteriores li {
   list-style: none;
   color: rgb(228, 218, 218);
   font-size: 17px;
 }
-
-.miembros-anteriores a {
+.miembros-anteriores li a {
   color: rgb(255, 166, 0);
 }
 
@@ -294,10 +284,18 @@ form label {
   text-align: center;
 }
 
-.disco-uno img, .disco-dos img, .disco-tres img, .-disco-cuatro img, .disco-cinco img, .disco-seis img, .disco-siete img, .disco-ocho img, .disco-nueve img, .disco-diez img, .disco-once img {
-  margin-top: 10px;
+.disco-dos, .disco-tres, .disco-cuatro, .disco-cinco, .disco-seis, .disco-siete, .disco-ocho, .disco-nueve, .disco-diez, .disco-once {
+  text-align: center;
+  margin-top: 50px;
 }
 
+.disco-uno h2, .disco-dos h2, .disco-tres h2, .disco-cuatro h2, .disco-cinco h2, .disco-seis h2, .disco-siete h2, .disco-ocho h2, .disco-nueve h2, .disco-diez h2, .disco-once h2 {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.disco-uno img, .disco-dos img, .disco-tres img, .disco-cuatro img, .disco-cinco img, .disco-seis img, .disco-siete img, .disco-ocho img, .disco-nueve img, .disco-diez img, .disco-once img {
+  margin-top: 10px;
+}
 .disco-uno p, .disco-dos p, .disco-tres p, .disco-cuatro p, .disco-cinco p, .disco-seis p, .disco-siete p, .disco-ocho p, .disco-nueve p, .disco-diez p, .disco-once p {
   justify-content: center;
   margin-left: 50px;
@@ -307,27 +305,22 @@ form label {
   color: rgb(228, 218, 218);
 }
 
-.disco-uno h2, .disco-dos h2, .disco-tres h2, .-disco-cuatro h2, .disco-cinco h2, .disco-seis h2, .disco-siete h2, .disco-ocho h2, .disco-nueve h2, .disco-diez h2, .disco-once h2 {
-  margin-top: 50px;
-  font-size: 30px;
-}
-
-.disco-dos, .disco-tres, .disco-cuatro, .disco-cinco, .disco-seis, .disco-siete, .disco-ocho, .disco-nueve, .disco-diez, .disco-once {
-  text-align: center;
-  margin-top: 50px;
-}
-
 .galeria-encabezado h3 {
   justify-content: center;
   margin-left: 80px;
   margin-right: 80px;
   color: rgb(228, 218, 218);
   font-weight: 500;
+  font-size: 20px;
 }
 
 .galeria-iframes {
   display: inline-block;
   margin: 100px;
+}
+
+.container {
+  margin-top: 50px;
 }
 
 @media (max-width: 576px) {
