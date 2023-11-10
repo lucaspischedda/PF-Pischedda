@@ -107,7 +107,8 @@ form label {
 }
 
 .galeria-iframe-dos {
-  max-width: 98%;
+  width: 500px;
+  height: 300px;
 }
 
 .historia-encabezado h1 {
@@ -348,6 +349,7 @@ form label {
     justify-content: center;
     align-items: center;
     margin-top: -250px;
+    max-width: 98%;
   }
   .historia-contenido p, .miembros-contenido p, .discografia-contenido p, .galeria-contenido p {
     font-size: 14px;
