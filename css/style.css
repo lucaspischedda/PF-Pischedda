@@ -20,7 +20,8 @@ h2 {
 
 h3 {
   font-size: 20px;
-  color: rgb(47, 79, 79);
+  color: rgb(8, 8, 8);
+  margin-left: 10px;
 }
 
 .menu {
@@ -37,6 +38,14 @@ p a {
   margin-left: 70px;
 }
 
+.nav-link:hover {
+  color: rgb(255, 166, 0);
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
 footer {
   background-color: rgb(0, 0, 0);
   margin-top: 20px;
@@ -48,6 +57,10 @@ footer h6 a {
   color: rgb(255, 166, 0);
 }
 
+form {
+  margin-left: 50px;
+  margin-top: 50px;
+}
 form label {
   color: rgb(255, 255, 255);
 }
@@ -94,8 +107,7 @@ form label {
 }
 
 .galeria-iframe-dos {
-  width: 560px;
-  height: 315px;
+  max-width: 98%;
 }
 
 .historia-encabezado h1 {
@@ -115,7 +127,8 @@ form label {
   margin-top: 30px;
   margin-left: 100px;
 }
-.historia-main-ul .historia-encabezado li {
+
+.historia-encabezado li {
   list-style: none;
   font-size: 20px;
   color: rgb(228, 218, 218);
@@ -129,7 +142,8 @@ form label {
   margin-top: 30px;
   margin-left: 100px;
 }
-.historia-main-div .historia-main-ul .historia-main-img {
+
+.historia-main-img {
   margin-left: 100px;
 }
 
@@ -167,12 +181,6 @@ form label {
 
 .james-section h2, .lars-section h2, .kirk-section h2, .robert-section h2 {
   font-size: 30px;
-  margin-left: 10px;
-}
-
-.james-cont h3, .lars-cont h3, .kirk-cont h3, .robert-cont h3 {
-  font-size: 20px;
-  color: rgb(47, 79, 79);
   margin-left: 10px;
 }
 
@@ -259,7 +267,7 @@ form label {
 }
 
 .formacion-actual a {
-  color: yellow;
+  color: rgb(255, 166, 0);
 }
 
 .miembros-anteriores {
@@ -278,7 +286,7 @@ form label {
 }
 
 .miembros-anteriores a {
-  color: yellow;
+  color: rgb(255, 166, 0);
 }
 
 .disco-uno {
@@ -409,8 +417,8 @@ form label {
     flex-direction: column-reverse;
     margin-top: -50px;
   }
-  .timelane-img {
-    width: 500px;
+  .timelane-img, .james-imgn, .lars-imgn, .kirk-imgn, .robert-imgn, .ron-imgn, .dave-imgn, .cliff-imgn, .jason-imgn {
+    max-width: 98%;
   }
   .timelane-div {
     flex-direction: column;
