@@ -1,0 +1,5 @@
+@mixin decoracion ($cl, $ta, $fs){
+    color: $cl;
+    text-align: $ta;
+    font-size: $fs;
+}

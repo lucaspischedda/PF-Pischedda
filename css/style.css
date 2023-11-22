@@ -4,111 +4,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-  background-color: rgb(63, 59, 59);
-}
-
-h1 {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-size: 40px;
-}
-
-h2 {
-  color: rgb(0, 0, 0);
-}
-
-h3 {
-  font-size: 20px;
-  color: rgb(8, 8, 8);
-}
-
-.menu {
-  background-color: rgb(0, 0, 0);
-}
-
-p a {
-  color: rgb(255, 166, 0);
-}
-
-.nav-link {
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-  margin-left: 70px;
-}
-
-.nav-link:hover {
-  color: rgb(255, 166, 0);
-}
-
-.navbar-brand {
-  margin-left: 10px;
-}
-
-footer {
-  background-color: rgb(0, 0, 0);
-  margin-top: 20px;
-}
-footer h6 {
-  color: rgb(255, 255, 255);
-}
-footer h6 a {
-  color: rgb(255, 166, 0);
-}
-
-form {
-  margin-left: 50px;
-  margin-top: 50px;
-}
-form label {
-  color: rgb(255, 255, 255);
-}
-
-.encabezado-h2 {
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
-  color: rgb(228, 218, 218);
-}
-
-.historia-index, .miembros-index, .discografia-index, .galeria-index {
-  display: flex;
-  align-items: center;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.historia-index h2, .miembros-index h2, .discografia-index h2, .galeria-index h2 {
-  font-size: 30px;
-}
-.historia-index p, .miembros-index p, .discografia-index p, .galeria-index p {
-  justify-content: center;
-  color: rgb(228, 218, 218);
-  font-size: 17px;
-  margin-top: 10px;
-}
-
-.historia-contenido {
-  margin-left: 10px;
-  height: 350px;
-}
-
-.miembros-contenido {
-  margin-right: 10px;
-  height: 370px;
-}
-
-.discografia-contenido {
-  margin-left: 10px;
-  height: 515px;
-}
-
-.galeria-iframe-dos {
-  width: 500px;
-  height: 300px;
-}
-
 .historia-encabezado h1 {
   text-align: center;
 }
@@ -433,6 +328,110 @@ form label {
     margin-top: 20px;
     margin-left: 10px;
   }
+}
+.historia-index, .miembros-index, .discografia-index, .galeria-index {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body {
+  background-color: rgb(63, 59, 59);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(8, 8, 8);
+}
+
+.menu {
+  background-color: rgb(0, 0, 0);
+}
+
+p a {
+  color: rgb(255, 166, 0);
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-left: 70px;
+}
+
+.nav-link:hover {
+  color: rgb(255, 166, 0);
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+}
+footer h6 {
+  color: rgb(255, 255, 255);
+}
+footer h6 a {
+  color: rgb(255, 166, 0);
+}
+
+form {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+form label {
+  color: rgb(255, 255, 255);
+}
+
+.encabezado-h2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  color: rgb(228, 218, 218);
+}
+
+.historia-index h2, .miembros-index h2, .discografia-index h2, .galeria-index h2 {
+  font-size: 30px;
+}
+.historia-index p, .miembros-index p, .discografia-index p, .galeria-index p {
+  justify-content: center;
+  color: rgb(228, 218, 218);
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.historia-contenido {
+  margin-left: 10px;
+  height: 350px;
+}
+
+.miembros-contenido {
+  margin-right: 10px;
+  height: 370px;
+}
+
+.discografia-contenido {
+  margin-left: 10px;
+  height: 515px;
+}
+
+.galeria-iframe-dos {
+  width: 500px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
